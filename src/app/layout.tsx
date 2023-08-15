@@ -7,17 +7,19 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Boilerplate Next.JS',
   description: 'Desenvolvido por victorandradelima',
-  authors: [{name: 'Victor Lima', url: 'https://github.com/victorandradelima'}],
+  authors: [
+    { name: 'Victor Lima', url: 'https://github.com/victorandradelima' }
+  ]
 }
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      {/* <body className={inter.className}>{children}</body> Exemplo usando next/font */} 
+      {/* <body className={inter.className}>{children}</body> Exemplo usando next/font */}
       <body>{children}</body>
     </html>
   )
