@@ -29,7 +29,7 @@ Este projeto foi inicializado com o comando `create-next-app`
 
 Versão do Next neste boilerplate: `next@13.4.15`
 
-Use o comando `yarn` para instalar todas as dependências
+Use o comando `yarn` para instalar todas as dependências.
 
 O comando para rodar em ambiente de desenvolvimento é `yarn dev`
 
@@ -42,7 +42,7 @@ Documentação Next.JS: [Next.js Documentation](https://nextjs.org/docs)
 Tutorial interativo para Next.JS: [Learn Next.js](https://nextjs.org/learn)
 ## App Router
 
-Foi configurado para utilizar o sistema de App Router do Next JS que permite a criação de um ambiente de roteamento organizado por pastas e por métodos que utilizam os server components do React
+Foi configurado para utilizar o sistema de App Router do Next JS que permite a criação de um ambiente de roteamento organizado por pastas e por métodos que utilizam os server components do React.
 
 Saiba mais sobre o App Router: [App Router](https://nextjs.org/docs/app/building-your-application/routing#the-app-router)
 
@@ -56,3 +56,10 @@ Procure utilizar as formatações configuradas no arquivo `.editorconfig`, e evi
 
 ## Eslint
 
+Este projeto utiliza o Eslint para auxílio em buscas de erros no código.
+
+Se você estiver usando o VS Code, sugiro instalar a extensão do Eslint para visualizar os erros em tempo de execução.
+
+[Extensão ESLint para VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+Para verificar se existem erros em todos os arquivos da pasta src, utilize o comando `yarn lint`
