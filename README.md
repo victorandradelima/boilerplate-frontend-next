@@ -63,3 +63,15 @@ Se você estiver usando o VS Code, sugiro instalar a extensão do Eslint para vi
 [Extensão ESLint para VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 Para verificar se existem erros em todos os arquivos da pasta src, utilize o comando `yarn lint`
+
+As configurações e preferências do ESlint são customizáveis no arquivo `.eslintrc.json` 
+
+## Prettier
+
+Neste projeto está configurado o Prettier como formatador e código
+
+Se você estiver usando o VS Code, sugiro instalar a extensão do Prettier para visualizar os erros em tempo de execução.
+
+[Extensão Prettier para VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+As configurações e preferências do Prettier são customizáveis no arquivo `.prettierrc` 
