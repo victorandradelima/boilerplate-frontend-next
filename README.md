@@ -50,3 +50,7 @@ Saiba mais sobre server components: [Server components](https://nextjs.org/docs/
 
 Assim, as páginas da aplicação estarão dentro da pasta `app`
 
+## EditorConfig
+
+Procure utilizar as formatações configuradas no arquivo `.editorconfig`, e evite mudar sem comunicar todos os responsáveis pelo projeto.
+
