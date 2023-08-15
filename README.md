@@ -54,17 +54,17 @@ Assim, as páginas da aplicação estarão dentro da pasta `app`
 
 Procure utilizar as formatações configuradas no arquivo `.editorconfig`, e evite mudar sem comunicar todos os responsáveis pelo projeto.
 
-## Eslint
+## ESLint
 
-Este projeto utiliza o Eslint para auxílio em buscas de erros no código.
+Este projeto utiliza o ESLint para auxílio em buscas de erros no código.
 
-Se você estiver usando o VS Code, sugiro instalar a extensão do Eslint para visualizar os erros em tempo de execução.
+Se você estiver usando o VSCode, sugiro instalar a extensão do ESLint para visualizar os erros em tempo de execução.
 
 [Extensão ESLint para VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 Para verificar se existem erros em todos os arquivos da pasta src, utilize o comando `yarn lint`
 
-As configurações e preferências do ESlint são customizáveis no arquivo `.eslintrc.json` 
+As configurações e preferências do ESLint são customizáveis no arquivo `.eslintrc.json` 
 
 ## Prettier
 
@@ -74,4 +74,10 @@ Se você estiver usando o VS Code, sugiro instalar a extensão do Prettier para 
 
 [Extensão Prettier para VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-As configurações e preferências do Prettier são customizáveis no arquivo `.prettierrc` 
+As configurações e preferências do Prettier são customizáveis no arquivo `.prettierrc`
+
+## VSCode settings
+
+Esta opção é válida apenas para usuários do editor VSCode
+
+Na pasta .vscode, temos o arquivo de configuração com algumas opções personalizadas, estes valores são os ideias para usar o ESLint e o Prettier juntos.
