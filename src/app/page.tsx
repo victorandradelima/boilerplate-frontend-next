@@ -1,7 +1,4 @@
 export default function Home() {
-
-  const foo
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <h1>Boilerplate</h1>
@@ -10,5 +7,5 @@ export default function Home() {
         Testing Library e Hooks
       </h2>
     </main>
-  );
+  )
 }
