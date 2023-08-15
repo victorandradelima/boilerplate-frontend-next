@@ -81,3 +81,8 @@ As configurações e preferências do Prettier são customizáveis no arquivo `.
 Esta opção é válida apenas para usuários do editor VSCode
 
 Na pasta .vscode, temos o arquivo de configuração com algumas opções personalizadas, estes valores são os ideias para usar o ESLint e o Prettier juntos.
+
+## Husky e Lint Staged
+
+Foi utilizado o pacote `husky` e `lint-staged` para auxiliar no processo de verificação de erros de código, formatação e testes.
+
