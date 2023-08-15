@@ -54,3 +54,5 @@ Assim, as páginas da aplicação estarão dentro da pasta `app`
 
 Procure utilizar as formatações configuradas no arquivo `.editorconfig`, e evite mudar sem comunicar todos os responsáveis pelo projeto.
 
+## Eslint
+
