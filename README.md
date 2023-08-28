@@ -86,3 +86,18 @@ Na pasta .vscode, temos o arquivo de configuração com algumas opções persona
 
 Foi utilizado o pacote `husky` e `lint-staged` para auxiliar no processo de verificação de erros de código, formatação e testes.
 
+Neste boilerplate está configurado um comando de verificação de lint e deverificação de arquivos de teste.
+
+## Jest e Testing Library
+
+Este boilerplate foi configurado para usar as ferramentas `jest` e `testing-library` para desenvolver testes unitários e de integração.
+
+Na rota `src/app/jest` você terá exemplo de implementação de testes unitários
+
+Para rodar teste foram configurados 3 comandos:
+
+`yarn test`: Roda uma varredura nos arquivos de teste, verificando se todos os testes estão passando, também é usado no pré-commit do lint-staged
+
+`yarn test:watch`: Mantém um monitoramento nas alterações do arquivos, e avisa quando algum teste for quebrado.
+
+`yarn test:ci`: Roda uma teste de coverage, verificando todos os arquivos de teste e arquivos testáveis estão realmente com teste corretos
